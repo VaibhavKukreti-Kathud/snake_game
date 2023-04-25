@@ -10,11 +10,19 @@ class FoodPixel extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.all(2),
       child: Container(
-        decoration: BoxDecoration(
-          color: Color.fromARGB(255, 255, 195, 171),
-          borderRadius: BorderRadius.circular(4),
-        ),
-      ),
+          decoration: BoxDecoration(
+            color: Color.fromARGB(0, 255, 195, 171),
+            borderRadius: BorderRadius.circular(4),
+          ),
+          child: Center(
+            child: Text(
+              '🍎',
+              style: TextStyle(
+                fontSize: 27,
+                color: Color.fromARGB(255, 255, 255, 255),
+              ),
+            ),
+          )),
     );
   }
 }

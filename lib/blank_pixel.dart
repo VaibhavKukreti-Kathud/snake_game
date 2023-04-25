@@ -8,11 +8,11 @@ class BlankPixel extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.all(2),
+      padding: EdgeInsets.all(10),
       child: Container(
         decoration: BoxDecoration(
           color: Colors.grey[900],
-          borderRadius: BorderRadius.circular(4),
+          borderRadius: BorderRadius.circular(100),
         ),
       ),
     );
